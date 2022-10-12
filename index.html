@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Protfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -416,25 +416,32 @@
                     </div>
                     
                     <div class="right-contact">
-                        <form action="https://formsubmit.co/zubairhossain773@gmail.com" method="POST">
+                    <form id="myForm" action="https://formsubmit.co/zubairhossain773@gmail.com" method="POST">
                             <div class="input-control i-c-2">
-                                <input type="text" name="Name" required placeholder="Your Name">
-                                <input type="email" name="Email" required placeholder="Your Email">
+                                <input type="text" name="Name" required="" placeholder="Your Name">
+                                <input type="email" name="Email" required="" placeholder="Your Email">
                             </div>
 
                             <div class="input-control">
-                                <input type="text" name= "Subject" required placeholder="Enter Subject">
+                                <input type="text" name="Subject" required="" placeholder="Enter Subject">
                             </div>
 
                             <div class="input-control">
-                                <textarea name="message" id="" cols="15" rows="8" required placeholder="Message Here.."></textarea>
+                                <textarea name="message" id="" cols="15" rows="8" required="" placeholder="Message Here.."></textarea>
                             </div>
 
-                            <div class="submit-btn">
+                            <!-- <div class="submit-btn">
                                 <a href="#" class="main-btn1">
-                                <!-- <span class="btn-text"> Submit Now </span> -->
-                                <button type="submit" class="btn-text">Submit Now</button>
-                                </a>
+                                <span class="btn-text"> Submit Now </span>
+                                </a> -->
+                            <div class="btn-con" style="cursor: pointer;">
+                                <!-- <a href="#" class="main-btn1"></a> -->
+                                <a href="javascript:void()" onclick="document.getElementById('myForm').submit();" class="submit_btn" style="cursor: pointer;">
+                              <span class="btn-text"> Submit Now </span>
+                              <span class="btn-icon"><i class="fa-solid fa-download"></i></span>
+                              </a>
+                            </div>
+                                
                             </div>
 
 

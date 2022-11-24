@@ -207,6 +207,36 @@ section {
   margin: 1.5rem 0;
   line-height: 2rem;
 }
+.header-content .right-header .follow-icon {
+  padding-bottom: 25px;
+  display: flex;
+  margin-top: 2rem;
+}
+.header-content .right-header .follow-icon a {
+  display: flex;
+  align-items: center;
+  color: var(--color-white);
+  background-color: var(--color-grey5);
+  cursor: pointer;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 0.4rem;
+  transition: all 0.4s ease-in-out;
+}
+.header-content .right-header .follow-icon a:hover {
+  background-color: var(--color-secondary);
+}
+.header-content .right-header .follow-icon a:hover i {
+  color: var(--color-primary);
+}
+.header-content .right-header .follow-icon a i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
 
 /*Independent components*/
 .btn-con {
@@ -678,8 +708,8 @@ section {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
-  height: 300px;
+  width: 50%;
+  height: 50%;
   -o-object-fit: cover;
      object-fit: cover;
   border-top-left-radius: 5px;
@@ -742,11 +772,11 @@ section {
   align-items: center;
   font-size: 1.3rem;
 }
-.contact-content-con .left-content .contact-icon {
+.contact-content-con .left-content .contact-icon, .contact-content-con .left-content follow-icon {
   display: flex;
   margin-top: 2rem;
 }
-.contact-content-con .left-content .contact-icon a {
+.contact-content-con .left-content .contact-icon a, .contact-content-con .left-content follow-icon a {
   display: flex;
   align-items: center;
   color: var(--color-white);
@@ -759,13 +789,13 @@ section {
   margin: 0 0.4rem;
   transition: all 0.4s ease-in-out;
 }
-.contact-content-con .left-content .contact-icon a:hover {
+.contact-content-con .left-content .contact-icon a:hover, .contact-content-con .left-content follow-icon a:hover {
   background-color: var(--color-secondary);
 }
-.contact-content-con .left-content .contact-icon a:hover i {
+.contact-content-con .left-content .contact-icon a:hover i, .contact-content-con .left-content follow-icon a:hover i {
   color: var(--color-primary);
 }
-.contact-content-con .left-content .contact-icon a i {
+.contact-content-con .left-content .contact-icon a i, .contact-content-con .left-content follow-icon a i {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -861,6 +891,29 @@ section {
   text-shadow: 0 1px rgba(143, 129, 129, 0.1);
 }
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 @media screen and (max-width: 600px) {
   header {
     padding: 0;
@@ -912,6 +965,10 @@ section {
     padding-bottom: 6rem;
   }
   .blogs {
+    grid-template-columns: 1fr;
+    padding-bottom: 6rem;
+  }
+  .education_container {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
   }

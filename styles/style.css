@@ -915,6 +915,82 @@ section {
   visibility: visible;
 }
 
+.side-bar-test a {
+  position: absolute;
+  /*left: -80px;*/
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+.test1 {
+  display: none;
+}
+
+.side-bar-test:hover .test1 {
+  transition: transform 500ms linear;
+  right: 50px;
+  display: block;
+}
+
+.test2 {
+  display: none;
+}
+
+.side-bar-test:hover .test2 {
+  right: 50px;
+  display: block;
+}
+
+.test3 {
+  display: none;
+}
+
+.side-bar-test:hover .test3 {
+  right: 80px;
+  display: block;
+}
+
+.test4 {
+  display: none;
+}
+
+.side-bar-test:hover .test4 {
+  right: 70px;
+  display: block;
+}
+
+.test5 {
+  display: none;
+}
+
+.side-bar-test:hover .test5 {
+  right: 50px;
+  display: block;
+}
+
+.test6 {
+  display: none;
+}
+
+.side-bar-test:hover .test6 {
+  right: 30px;
+  display: block;
+}
+
+.test7 {
+  display: none;
+}
+
+.side-bar-test:hover .test7 {
+  right: 60px;
+  display: block;
+}
+
 @media screen and (max-width: 600px) {
   header {
     padding: 0;
@@ -1012,6 +1088,55 @@ section {
   }
   .controlls .control {
     margin: 1rem 0.3rem;
+  }
+  .test1 {
+    display: none;
+  }
+  .side-bar-test:hover .test1 {
+    right: 50px;
+    display: none;
+  }
+  .test2 {
+    display: none;
+  }
+  .side-bar-test:hover .test2 {
+    right: 50px;
+    display: none;
+  }
+  .test3 {
+    display: none;
+  }
+  .side-bar-test:hover .test3 {
+    right: 80px;
+    display: none;
+  }
+  .test4 {
+    display: none;
+  }
+  .side-bar-test:hover .test4 {
+    right: 70px;
+    display: none;
+  }
+  .test5 {
+    display: none;
+  }
+  .side-bar-test:hover .test5 {
+    right: 50px;
+    display: none;
+  }
+  .test6 {
+    display: none;
+  }
+  .side-bar-test:hover .test6 {
+    right: 30px;
+    display: none;
+  }
+  .test7 {
+    display: none;
+  }
+  .side-bar-test:hover .test7 {
+    right: 60px;
+    display: none;
   }
 }
 @media screen and (max-width: 1432px) {

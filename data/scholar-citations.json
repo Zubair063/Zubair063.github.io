@@ -1,0 +1,58 @@
+{
+  "profile_id": "CbTdO6kAAAAJ",
+  "profile_url": "https://scholar.google.com/citations?user=CbTdO6kAAAAJ&hl=en&pagesize=100",
+  "updated_at": "2026-08-25T16:49:42+00:00",
+  "total_citations": 281,
+  "publications": [
+    {
+      "title": "An improved K-means clustering algorithm towards an efficient data-driven modeling",
+      "citations": 156,
+      "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16092253532724314458"
+    },
+    {
+      "title": "An efficient k-means clustering algorithm for analysing covid-19",
+      "citations": 44,
+      "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18152851350165435414"
+    },
+    {
+      "title": "A machine learning approach for crop yield and disease prediction integrating soil nutrition and weather factors",
+      "citations": 23,
+      "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=255318623596644441"
+    },
+    {
+      "title": "Agricultural recommendation system based on deep learning: A multivariate weather forecasting approach",
+      "citations": 19,
+      "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6410214510077081680"
+    },
+    {
+      "title": "A data-driven predictive analysis on cyber security threats with key risk factors",
+      "citations": 11,
+      "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8973282543267707130"
+    },
+    {
+      "title": "Automated sensor node malicious activity detection with explainability analysis",
+      "citations": 10,
+      "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3859444132877144857"
+    },
+    {
+      "title": "An Intelligent Model to Suggest Top Productive Seasonal Crops Based on User Location in Context of Bangladesh",
+      "citations": 8,
+      "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17930569593139926347,13146332136139320612"
+    },
+    {
+      "title": "A modified Naïve Bayesian-based spam filter using support vector machine",
+      "citations": 6,
+      "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12428954729218521135"
+    },
+    {
+      "title": "Climate data dynamics: A high-volume real world structured weather dataset",
+      "citations": 3,
+      "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11919337144746079738"
+    },
+    {
+      "title": "MultiFair: Multimodal Balanced Fairness-Aware Medical Classification with Dual-Level Gradient Modulation",
+      "citations": 1,
+      "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10218906862055143434"
+    }
+  ]
+}

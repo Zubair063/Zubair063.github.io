@@ -1,12 +1,12 @@
 {
   "profile_id": "CbTdO6kAAAAJ",
   "profile_url": "https://scholar.google.com/citations?user=CbTdO6kAAAAJ&hl=en&pagesize=100",
-  "updated_at": "2026-08-25T16:49:42+00:00",
-  "total_citations": 281,
+  "updated_at": "2026-09-07T03:53:53+00:00",
+  "total_citations": 283,
   "publications": [
     {
       "title": "An improved K-means clustering algorithm towards an efficient data-driven modeling",
-      "citations": 156,
+      "citations": 157,
       "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16092253532724314458"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
       "title": "A modified Naïve Bayesian-based spam filter using support vector machine",
-      "citations": 6,
+      "citations": 7,
       "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12428954729218521135"
     },
     {

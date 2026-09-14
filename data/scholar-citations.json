@@ -1,8 +1,8 @@
 {
   "profile_id": "CbTdO6kAAAAJ",
   "profile_url": "https://scholar.google.com/citations?user=CbTdO6kAAAAJ&hl=en&pagesize=100",
-  "updated_at": "2026-09-07T03:53:53+00:00",
-  "total_citations": 283,
+  "updated_at": "2026-09-14T12:49:27+00:00",
+  "total_citations": 285,
   "publications": [
     {
       "title": "An improved K-means clustering algorithm towards an efficient data-driven modeling",
@@ -11,7 +11,7 @@
     },
     {
       "title": "An efficient k-means clustering algorithm for analysing covid-19",
-      "citations": 44,
+      "citations": 45,
       "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18152851350165435414"
     },
     {
@@ -46,7 +46,7 @@
     },
     {
       "title": "Climate data dynamics: A high-volume real world structured weather dataset",
-      "citations": 3,
+      "citations": 4,
       "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11919337144746079738"
     },
     {

@@ -1,8 +1,8 @@
 {
   "profile_id": "CbTdO6kAAAAJ",
   "profile_url": "https://scholar.google.com/citations?user=CbTdO6kAAAAJ&hl=en&pagesize=100",
-  "updated_at": "2026-09-14T12:49:27+00:00",
-  "total_citations": 285,
+  "updated_at": "2026-09-21T12:50:24+00:00",
+  "total_citations": 286,
   "publications": [
     {
       "title": "An improved K-means clustering algorithm towards an efficient data-driven modeling",
@@ -16,7 +16,7 @@
     },
     {
       "title": "A machine learning approach for crop yield and disease prediction integrating soil nutrition and weather factors",
-      "citations": 23,
+      "citations": 24,
       "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=255318623596644441"
     },
     {

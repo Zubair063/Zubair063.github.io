@@ -1208,6 +1208,11 @@ h4 {
   border-color: var(--primary-dark);
 }
 
+.cv-soon {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 .cv-download-icon {
   display: inline-flex;
   align-items: center;
@@ -1273,6 +1278,19 @@ h4 {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+}
+
+.cv-modal-panel.cv-modal-notice {
+  width: min(480px, 100%);
+  height: auto;
+}
+
+.cv-soon-message {
+  margin: 0;
+  padding: 2.25rem 1.5rem 2.5rem;
+  text-align: center;
+  color: var(--heading);
+  font-size: 1.05rem;
 }
 
 .cv-modal-header {

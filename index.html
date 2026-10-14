@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  <link rel="stylesheet" href="css/style.css?v=20260829d" />
+  <link rel="stylesheet" href="css/style.css?v=20261014c" />
   <link rel="icon" href="assets/ull-logo.svg" />
 </head>
 <body>
@@ -92,16 +92,12 @@
             <p>
               I am always interested in collaborating on challenging research problems in Medical AI, Computer Vision, Machine Learning, and related interdisciplinary areas.
             </p>
-            <!-- CV masked pending update. Restore the block below when the CV is ready.
             <div class="cv-actions">
               <button type="button" class="cv-btn" id="cv-preview-btn" aria-haspopup="dialog" aria-controls="cv-modal">
                 <i class="fas fa-eye"></i> Preview CV
               </button>
-              <a class="cv-download-icon" href="assets/cv.pdf" download="Md_Zubair_CV.pdf" aria-label="Download CV" title="Download CV">
-                <i class="fas fa-download"></i>
-              </a>
+              <span class="cv-soon">CV will be available soon.</span>
             </div>
-            -->
           </div>
         </div>
       </div>
@@ -348,40 +344,22 @@
     </div>
   </footer>
 
-  <!-- CV preview masked pending update. Restore the dialog below when the CV is ready.
   <div class="cv-modal" id="cv-modal" role="dialog" aria-modal="true" aria-labelledby="cv-modal-title" hidden>
     <div class="cv-modal-backdrop" data-cv-close></div>
-    <div class="cv-modal-panel">
+    <div class="cv-modal-panel cv-modal-notice">
       <div class="cv-modal-header">
         <h2 id="cv-modal-title">Curriculum Vitae</h2>
         <div class="cv-modal-actions">
-          <a class="cv-btn cv-btn-sm" href="assets/cv.pdf" target="_blank" rel="noopener">
-            <i class="fas fa-external-link-alt"></i> Open
-          </a>
-          <a class="cv-btn cv-btn-sm cv-btn-outline" href="assets/cv.pdf" download="Md_Zubair_CV.pdf">
-            <i class="fas fa-download"></i> Download
-          </a>
           <button type="button" class="cv-modal-close" data-cv-close aria-label="Close CV preview">
             <i class="fas fa-times"></i>
           </button>
         </div>
       </div>
       <div class="cv-modal-body">
-        <iframe
-          id="cv-frame"
-          title="CV preview"
-          src="assets/cv.pdf#toolbar=1&navpanes=0&view=FitH"
-        ></iframe>
-        <p class="cv-fallback" id="cv-fallback" hidden>
-          PDF preview is unavailable in this browser.
-          <a href="assets/cv.pdf" target="_blank" rel="noopener">Open the CV</a>
-          or
-          <a href="assets/cv.pdf" download="Md_Zubair_CV.pdf">download it</a>.
-        </p>
+        <p class="cv-soon-message">CV will be available soon.</p>
       </div>
     </div>
   </div>
-  -->
 
   <script src="js/main.js?v=20260825b"></script>
 </body>
